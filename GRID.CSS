@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 60px;
+}
+
+.box {
+    background-color: rgb(34, 93, 147);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    /* padding-left: 20px; */
+    text-align: center;
+    padding-top: 50px;
+    gap: 10px;
+    color: #fff;
+}
+
+.box img {
+    border-radius: 20px;
+}

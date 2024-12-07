@@ -1,0 +1,31 @@
+body{
+    margin-top: 100px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    padding-top: 80px;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.our {
+    text-align: center;
+    
+}
+.our h1{
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.box1 {
+    background-color: rgb(111, 175, 231);
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+i {
+    font-size: 2em;
+    padding-top: 40px;
+}
